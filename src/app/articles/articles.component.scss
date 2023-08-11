@@ -1,0 +1,297 @@
+section {
+    display: table;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    margin: 32px auto 32px;
+    padding: 0 16px;
+    flex-wrap: wrap;
+    min-height: 400px;
+  }
+
+  .mat-card-content {
+    background-color: rgba(255, 255, 255, 0.34);
+    text-align: center;
+  }
+  
+  .card {
+    min-width: 260px;
+    background-color: rgba(67, 142, 154, 0.087);
+    margin: 10px;
+    width: 260px;
+    padding: 10px;
+  }
+
+  .button-container {
+    background-color: rgba(56, 169, 21, 0.193);
+  }
+
+  /* Styles pour les boutons d'achat */
+  .buy-button {
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    color: #111;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  /* Style pour le bouton d'achat principal */
+  .buy-button.primary {
+    background-color: #ff9900;
+    border-color: #e47911;
+    width: 100%;
+  }
+
+  .mat-field-q {
+    margin-top: 15px;
+  }
+
+  .mat-field-s {
+    margin-top: 15px;
+  }
+
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .card-modal {
+    width: 100%;
+  }
+  
+  .modal-content-scroll {
+    overflow-y: auto;
+    max-height: 80%;
+    width: 100%;
+  }
+  
+  .content-wrapper {
+    display: flex;
+  }
+  
+  .left-column {
+    flex: 1;
+    margin-right: 20px;
+    max-width: 400px;
+  }
+  
+  .right-column {
+    flex: 2;
+    max-width: 180px;
+  }
+  
+  .articles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .first-image {
+    margin-bottom: 20px;
+  }
+  
+  .img-modal {
+    width: 100%;
+  }
+  
+  .mat-field-q {
+    margin-top: 20px;
+  }
+  
+  .buy-button {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .articles-previews {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .positive {
+    color: green;
+  }
+  
+  .negative {
+    color: rgba(246, 58, 58, 0.486);
+  }
+  .card-compare {
+    // align-items: center;
+    // width: 100%;
+    min-height: 100%;
+  }
+  .card-compare-body {
+    // justify-content: space-between;
+    width: 60%;
+    min-height: 100%;
+  }
+
+  .compare-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .compare-right,
+  .compare-middle,
+  .compare-left {
+    flex: 1;
+    text-align: center;
+    // flex-basis: 33%;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 30%;
+    min-height: 100%;
+    color: #161816; /* Exemple de couleur verte */
+  }
+  
+  .compare-right > * {
+    padding-top: 10px;
+    color: rgba(8, 148, 8, 0.776);
+  }
+  
+  .compare-middle > * {
+    font-family: 'Bagel Fat One';
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgba(222, 184, 135, 0.711);
+  }
+  
+  .compare-left > * {
+    padding-top: 10px;
+    color: rgba(210, 28, 28, 0.8);
+  }
+
+  .articles-photos-previews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .article-photo-preview {
+    flex: 0 0 calc(33.33% - 10px);
+    margin: 5px;
+  }
+  
+  .article-info {
+    text-align: center;
+  }
+  .flex-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .primary-buttons {
+    width: 100%;
+  }
+
+
+  div.comparisontable{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  div.comparisontable img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+  
+  
+  div.comparisontable ul.row{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  div.comparisontable ul.row li{
+    background: #c9f4ca69;
+    flex: 1;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+  }
+  
+  div.comparisontable ul.row li.legend{
+    background: #6640d8dc;
+    color: white;
+    border: none;
+    width: 100px;
+    border-bottom: 1px solid white;
+    text-align: center;
+  }
+  
+  /* very first row */
+  div.comparisontable ul.row:first-of-type li{
+    text-align: center;
+  }
+  
+  /* very last row */
+  div.comparisontable ul.row:last-of-type li{
+    text-align: center;
+    border-bottom: none;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.23);
+  }
+  
+  div.comparisontable a.calltoaction{
+    color: white;
+    background: #e12525;
+    display: inline-block;
+    padding: 8px 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: .1em auto;
+  }
+  
+  div.comparisontable a.calltoaction:hover{
+    background: #d11212;
+  }
+  
+  
+  /* first and last cell within legend column */
+  div.comparisontable ul.row:first-of-type li.legend.legend{
+    background: transparent;
+    box-shadow: none;
+  }
+  
+  @media screen and (max-width:650px){
+    
+    div.comparisontable ul.row{
+      flex-direction: column;
+    }
+    
+    div.comparisontable img{
+      width: auto;
+      height: auto;
+    }
+    
+    div.comparisontable ul.row li{
+      margin-right: 0;
+      flex: auto;
+      width: auto;
+    }
+    
+    /* first and last cell within legend column */
+    div.comparisontable ul.row:first-of-type li.legend.legend,
+    div.comparisontable ul.row:last-of-type li.legend{
+      display: none;
+    }
+    
+    div.comparisontable ul.row li.legend{
+      width: auto;
+    }
+  }

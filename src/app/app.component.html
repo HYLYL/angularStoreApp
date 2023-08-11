@@ -1,0 +1,19 @@
+<!-- Toolbar -->
+<app-toolbar></app-toolbar>
+
+<mat-drawer-container class="mat-drawer-container">
+    <mat-drawer #drawer [opened]="true" [mode]="'side'" class="mat-drawer">
+                <mat-list role="list">
+                    <mat-list-item role="listitem"><button mat-raised-button color="primary" routerLink="/articles" ariaCurrentWhenActive="page" class="nav-link">Articles</button></mat-list-item>
+                    <mat-list-item role="listitem"><button mat-raised-button color="primary" routerLink="/users" ariaCurrentWhenActive="page" class="nav-link">Users</button></mat-list-item>
+                    <mat-list-item role="listitem"><button mat-raised-button color="primary" routerLink="/articlefocus" ariaCurrentWhenActive="page" class="nav-link">Articles</button></mat-list-item>
+
+                    <mat-list-item role="listitem"><button mat-raised-button color="primary" routerLink="/basket" ariaCurrentWhenActive="page" class="nav-link">Basket</button></mat-list-item>
+                  </mat-list>
+    </mat-drawer>
+    <mat-drawer-content class="mat-drawer-content">
+
+    <router-outlet></router-outlet>
+
+    </mat-drawer-content>
+</mat-drawer-container>

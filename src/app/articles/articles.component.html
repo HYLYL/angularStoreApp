@@ -1,0 +1,311 @@
+<!-- <p>{{ articlesTotalCount$ | async }}</p>
+<p>{{ page$ | async }}</p>
+<p>{{ limit$ | async }}</p> -->
+
+<!-- <p>{{ filter$ | async }}</p>
+<p>{{ count$ | async }}</p>
+<select matNativeControl (change)="onGenderSelected($event)">
+    <option>homme</option>
+    <option>femme</option>
+    <option>unisex</option>
+</select> -->
+
+<div class="content" role="main">
+
+    <mat-card class="card" *ngFor="let article of ( articles$ | async )">
+     
+      <mat-card-header style="height: 100px;">
+        <button mat-button (click)="openDialog(article)">
+          <!-- <button mat-button (click)="openComponent(article)"> -->
+          <mat-card-subtitle>{{article.name}}</mat-card-subtitle>
+          <mat-card-subtitle>{{article.brand}} - {{article.gender}} - {{article.price}} $</mat-card-subtitle>
+        </button>
+      </mat-card-header>
+
+        <img mat-card-image style="height: 200px;" [src]="'https://source.unsplash.com/640x480/?clothing&id=' + article._id" alt="Image">
+      
+      <mat-card-content class="mat-card-content">
+        <div class="mat-field-s">
+          <ng-template [ngIf]="article.hasOwnProperty('sizes') == true">
+            <mat-label>    Sizes : </mat-label>
+
+            <select matNativeControl (change)="onSizeSelected($event)" required>
+
+              <option *ngFor="let size of article.sizes" [value]="size">{{size}}</option>
+              
+            </select>
+          </ng-template>
+
+          <ng-template [ngIf]="article.hasOwnProperty('colors') == true">
+            <mat-label>        Colors : </mat-label>
+            
+            <select matNativeControl (change)="onColorSelected($event)" required>
+
+              <option *ngFor="let color of article.colors" [value]="color">{{color}}</option>
+              
+            </select>
+          </ng-template>
+        </div>
+          <div class="mat-field-q">
+          <mat-form-field appearance="outline">
+            <mat-label>Quantité</mat-label>
+            <input value="1" matInput>
+          </mat-form-field>
+        </div>
+           <button class="buy-button primary" [attr.id]="'buy-button-' + article._id" mat-raised-button (click)="basketService.update(article)">Ajouter au panier</button>
+    <!-- <button class="buy-button">Acheter maintenant</button> -->
+         
+         <!-- <p>Couleur de l'article : {{  basketName$ | async  }}</p>
+          <p>Nombre d'articles : {{  basketCount$ | async  }}</p>
+          <button [attr.id]="'delete-button-' + article._id" mat-mini-fab color="accent" (click)="decrement(article)" disabled="{{ ( basketCount$ | async ) == 0 }}">
+              <mat-icon>exposure_neg_1</mat-icon>
+          </button> -->
+          <!-- <p>{{ ( error$ | async )?.msg }}</p>
+          <p>{{ ( error$ | async )?.code }}</p> --> 
+       
+     
+      </mat-card-content>
+    </mat-card>
+
+</div>
+    <mat-paginator #paginator  
+      [length]="count$ | async"
+      [pageSize]="limit$ | async"
+      [pageSizeOptions]="[12, 24, 48]"
+      aria-label="Select page"
+      [pageIndex]="page$ | async"
+      (page)="onPageEvent($event)">
+    </mat-paginator>
+
+    <!-- MODAL -->
+
+<ng-template #focusedArticle>
+  <div class="modal-content">
+
+    <h2 class="flex-center">Fiche Article</h2>
+
+    <div class="modal-content-scroll">  
+
+      <mat-card class="card-modal">
+
+        <mat-card-header class="flex-left">
+          
+          <mat-card-subtitle>{{selectedArticle.name}}</mat-card-subtitle>
+          <mat-card-subtitle>{{selectedArticle.brand}} - {{selectedArticle.gender}} - {{selectedArticle.price}}</mat-card-subtitle>
+          
+        </mat-card-header> 
+
+        <mat-card-content>
+          <div class="content-wrapper">
+            <div class="left-column">
+              <div class="articles-container">
+                <div class="first-image">
+                  <img mat-card-image class="img-modal" [src]="'https://source.unsplash.com/640x480/?clothing&id=' + selectedArticle._id" alt="Image">
+                </div>
+              
+              </div>
+          
+              <ng-template [ngIf]="selectedArticle.hasOwnProperty('sizes') == true">
+                <mat-label>    Sizes : </mat-label>
+    
+                <select matNativeControl (change)="onSizeSelected($event)" required>
+    
+                  <option *ngFor="let size of selectedArticle.sizes" [value]="size">{{size}}</option>
+                  
+                </select>
+              </ng-template>
+  
+            <ng-template [ngIf]="selectedArticle.hasOwnProperty('colors') == true">
+              <mat-label>        Colors : </mat-label>
+              
+              <select matNativeControl (change)="onColorSelected($event)" required>
+  
+                <option *ngFor="let color of selectedArticle.colors" [value]="color">{{color}}</option>
+                
+              </select>
+            </ng-template>
+
+            <div class="mat-field-q">
+              <mat-form-field appearance="outline">
+                <mat-label>Quantité</mat-label>
+                <input value="1" matInput>
+              </mat-form-field>
+            </div>
+
+            <button class="buy-button primary" [attr.id]="'buy-button-' + selectedArticle._id" mat-raised-button (click)="basketService.update(selectedArticle)">Ajouter au panier</button>
+            
+            <div class="buttons">
+              <div class="example-button-row">
+                <div class="example-flex-container">
+                    <!-- <button mat-raised-button>Basic</button> -->
+                  <button mat-icon-button aria-label="Example icon button with a vertical three dot icon">
+                    <mat-icon>more_vert</mat-icon>
+                  </button>
+                  <button mat-icon-button color="primary" aria-label="Example icon button with a home icon">
+                    <mat-icon>home</mat-icon>
+                  </button>
+                  <button mat-icon-button color="accent" aria-label="Example icon button with a menu icon">
+                    <mat-icon>menu</mat-icon>
+                  </button>
+                  <button mat-icon-button color="warn" aria-label="Example icon button with a heart icon">
+                    <mat-icon>favorite</mat-icon>
+                  </button>
+                  <button mat-icon-button disabled aria-label="Example icon button with a open in new tab icon">
+                    <mat-icon>open_in_new</mat-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="right-column">
+            <div class="articles-photos-previews">
+              <div class="article-photo-preview" *ngFor="let article of (articles$ | async)?.slice(0, 4)">
+                <div class="photo-info" (click)="onClickCompare(article)">
+                  <img style="width: 120px;" mat-card-image [src]="'https://source.unsplash.com/640x480/?clothing&id=' + article._id" alt="Image">             
+                  <div [ngClass]="{'positive': selectedArticle?.price > article.price, 'negative': selectedArticle?.price < article.price}">
+                    {{ article.price }} $ | {{ (article.price - selectedArticle?.price) | number:'1.0-0' }} $ | {{ ((article.price - selectedArticle?.price) / article.price * 100) | number:'1.0-0' }} %
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+            <div class="card-compare-body" *ngIf="showDifference">
+            <h5 class="card-title">Price Comparison</h5> 
+              <!-- <div class="compare-body" *ngIf="showDifference">
+                <div class="compare-right">
+                  <div style="height: 50px">{{ selectedArticle.name | slice:0:12 }}</div>
+                  <div>{{ selectedArticle.price }}</div>
+                  <div>{{ selectedArticle.brand }}</div>
+                  <img style="width: 120px;" mat-card-image [src]="'https://source.unsplash.com/640x480/?clothing&id=' + selectedArticle.image" alt="Image">
+                </div>
+                <div class="compare-middle">
+                  <div style="height: 50px"> - name - </div>
+                  <div> - price - </div>
+                  <div> - brand - </div>
+                  <div> - image - </div>
+                </div>
+                <div class="compare-left">
+                  <div style="height: 50px">{{ selectedArticleCompare.name | slice:0:12 }}</div>
+                  <div>{{ selectedArticleCompare.price }}</div>
+                  <div>{{ selectedArticleCompare.brand }}</div>
+                  <img style="width: 120px;" mat-card-image [src]="'https://source.unsplash.com/640x480/?clothing&id=' + selectedArticleCompare.image" alt="Image">
+                </div>
+              </div> -->
+
+              <div class="comparisontable">
+
+                <ul class="row">
+                  <li><img style="width: 120px;" mat-card-image [src]="'https://source.unsplash.com/640x480/?clothing&id=' + selectedArticle.image" alt="Image">
+                    <br />{{selectedArticle.name}}</li>
+                    <li class="legend">Office Chairs</li>
+                  <li><img style="width: 120px;" mat-card-image [src]="'https://source.unsplash.com/640x480/?clothing&id=' + selectedArticleCompare.image" alt="Image">
+                    <br />{{selectedArticleCompare.name}}</li>
+                </ul> 
+
+               <ul class="row">
+                  <li>{{selectedArticle.name}}</li>
+                  <li class="legend">Name</li>
+                  <li>{{selectedArticleCompare.name}}</li>
+                </ul>
+                
+                <ul class="row">
+                  <li>{{selectedArticle.brand}}</li>
+                  <li class="legend">Brand</li>
+                  <li>{{selectedArticleCompare.brand}}</li>
+                </ul>
+                
+                <ul class="row">
+                  <li>{{selectedArticle.price}}</li>
+                  <li class="legend">Price</li>
+                  <li>{{selectedArticleCompare.price}}</li>
+                </ul>
+                
+                <ul class="row">
+                  <li>Domestic</li>
+                  <li class="legend">Delivery</li>
+                  <li>International</li>
+                </ul>
+                
+                <ul class="row">
+                  <li>Best Chair for Back Pain</li>
+                  <li class="legend">Verdict</li>
+                  <li>Best budget chair</li>
+                </ul>
+                
+                <!-- <ul class="row">
+                  <li class="legend"></li>
+                  <li><a href="http://ergonomictrends.com/best-ergonomic-office-chairs-reviews-buyers-guide/" class="calltoaction" rel="nofollow">Buy Now</a></li>
+                  <li><a href="http://ergonomictrends.com/best-ergonomic-office-chairs-under-200-reviews/" class="calltoaction" rel="nofollow">Buy Now</a></li>
+                  <li><a href="http://ergonomictrends.com/best-ergonomic-office-chairs-under-300-reviews/" class="calltoaction" rel="nofollow">Buy Now</a></li>
+                  <li><a href="http://ergonomictrends.com/best-ergonomic-office-chairs-under-100-reviews/" class="calltoaction" rel="nofollow">Buy Now</a></li>
+                </ul> -->
+              
+              </div>
+            </div>
+          </div>
+
+        </mat-card-content>
+      </mat-card>
+      <div class="articles-previews">
+        <div class="article-preview" *ngFor="let article of (articles$ | async)">
+          <div class="article-info" *ngIf="article._id < 8" (click)="closeDialog(); openDialog(article)">
+            <img style="width: 120px;" mat-card-image [src]="'https://source.unsplash.com/640x480/?clothing&id=' + article._id" alt="Image">
+            <br>
+            {{ article.name }}
+          </div>
+        </div>
+      </div>
+      <div class="commentaries">
+        <h2 class="video-title">Commentaires</h2>
+        <div class="comment">
+            <img src="avatar.jpg" class="avatar" alt="Avatar">
+            <div class="comment-details">
+                <h4 class="comment-author">John Doe</h4>
+                <span class="comment-date">May 24, 2023</span>
+            </div>
+            <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at sem lacinia, rutrum felis id, bibendum dolor. Fusce ac augue at urna accumsan consequat.</p>
+        </div>
+    
+        <div class="comment">
+            <img src="avatar.jpg" class="avatar" alt="Avatar">
+            <div class="comment-details">
+                <h4 class="comment-author">John Doe</h4>
+                <span class="comment-date">May 24, 2023</span>
+            </div>
+            <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at sem lacinia, rutrum felis id, bibendum dolor. Fusce ac augue at urna accumsan consequat.</p>
+        </div>
+    
+        <div class="comment">
+            <img src="avatar.jpg" class="avatar" alt="Avatar">
+            <div class="comment-details">
+              <h4 class="comment-author">John Doe</h4>
+              <span class="comment-date">May 24, 2023</span>
+            </div>
+            <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at sem lacinia, rutrum felis id, bibendum dolor. Fusce ac augue at urna accumsan consequat.</p>
+        </div> 
+        
+      </div>
+
+    </div>
+
+    <div class="modal-controls">
+      <button mat-button (click)="closeDialog()">Fermer</button>
+    </div>
+    
+  </div>
+</ng-template>
+    
+
+     <!-- <div> Output event: {{(pageEvent | json) || 'No events dispatched yet'}} </div> -->
+<!-- </div> -->
+
+<!-- <div *ngFor="let order of ( orders$ | async )">
+    
+  <mat-card class="example-card">
+    <mat-card-title>{{order._id}}</mat-card-title>
+    <mat-card-subtitle>{{order.userId}}</mat-card-subtitle>
+  </mat-card>
+
+</div> -->

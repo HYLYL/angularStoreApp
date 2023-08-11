@@ -1,0 +1,65 @@
+/* Styles pour la page simple */
+.page-container {
+    padding: 20px;
+    width: 20%;
+  }
+  
+  .flex-center {
+    text-align: center;
+  }
+  
+  .article-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .article-info {
+    margin-bottom: 10px;
+  }
+  
+  .article-images {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .first-image img {
+    width: 200px;
+  }
+  
+  .article-select {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+  }
+  
+  .mat-field-q {
+    margin-top: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card-compare {
+    margin-top: 20px;
+  }
+  
+  .card-compare-body {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .commentaries {
+    margin-top: 20px;
+  }
+  
+  .comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Ajoutez vos autres styles CSS selon vos besoins */
+  

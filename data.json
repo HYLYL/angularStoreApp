@@ -1,0 +1,1044 @@
+{
+  "sessions": [
+    {
+      "_id": "d1a19c89-81c4-49e3-a2cd-bb041212e748",
+      "expire": 1683536770483,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "c40a408a-f077-4917-8d11-3d52e1cc26bb",
+      "expire": 1683727465779,
+      "u": "testBasket@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "b801dfac-cd21-4b93-960b-bb99f3d394f6",
+      "expire": 1683727602466,
+      "u": "testBasket@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "2864503f-81cf-4e4a-b2ae-c39eeb8ef507",
+      "expire": 1683728092599,
+      "u": "testBasket@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "92f79f8a-00b4-43ec-889e-c55e22803214",
+      "expire": 1683729683390,
+      "u": "testBasket@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "3b9ec302-d749-42c0-823a-a7d4e43dc456",
+      "expire": 1683730137301,
+      "u": "testBasket@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "1a7afbc0-44ca-4b57-bcb0-adda68dade7a",
+      "expire": 1683730225751,
+      "u": "testBasket@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "a3c304fe-9262-4d39-ab16-b59510a4e381",
+      "expire": 1683731286262,
+      "u": "testBasket@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "bb3a04ae-e1f0-4263-9855-0fbbeab6e940",
+      "expire": 1683731453859,
+      "u": "testBasket@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "56b96f3d-73a6-4ae7-b487-e413286034bb",
+      "expire": 1683735316233,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "0d3eb417-6846-49dc-bd72-b5c1efca803d",
+      "expire": 1683735753492,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "8244c2cd-1546-493c-b48a-a99369228384",
+      "expire": 1683738341230,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "e1f1d529-4ccf-4b41-bb59-86a15a23fa3d",
+      "expire": 1683738588876,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "8abbfdf5-3638-477d-849b-4f7b47bd2528",
+      "expire": 1683738864347,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "fd413129-b153-490e-a002-b3c8e1bbccbb",
+      "expire": 1683738931434,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "f82c92a5-bb66-4985-8a5b-e8b4a551c5d9",
+      "expire": 1683739099805,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "53ad8f46-a2b4-4395-86aa-72ecab2d1b33",
+      "expire": 1683739181061,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "e38d925b-3190-4210-8a29-9c991a2cd405",
+      "expire": 1683739303582,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "bc6a8d5e-501d-422c-bc04-a45a8e981968",
+      "expire": 1683739947857,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "aaee2a71-fcf1-4512-80d8-e6e1c0aad0d8",
+      "expire": 1683741660020,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "acaefac8-efda-4593-983e-ee27ebd75a74",
+      "expire": 1683741717055,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "540cd880-ea0c-401c-a641-a13b056a4f47",
+      "expire": 1683742672799,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "835d4e26-aef2-42af-b7f1-51f539cf0009",
+      "expire": 1683742683244,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "11be6334-1c67-4d18-a381-de6505b4532d",
+      "expire": 1683742991186,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "61f3f21d-37b0-4d9e-9541-999308cb5994",
+      "expire": 1683742994656,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "ec51e8d2-162e-4afb-be00-418a4247bb4f",
+      "expire": 1683743808454,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "51dabad4-2df8-4ac9-b2df-a0b4ac9d7641",
+      "expire": 1683743858869,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "79a343c4-2a8c-46ae-9571-dc328a3d8e0d",
+      "expire": 1683743901795,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "072f9d63-1324-49dd-8683-eaeef9b102c0",
+      "expire": 1683744371224,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "58107c9f-d352-4b96-8306-3adf7a7304b7",
+      "expire": 1683745297194,
+      "u": "jhjryr@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "5e25a4c3-8c6d-468c-aeba-4c32fd57da90",
+      "expire": 1686054460167,
+      "u": "jhfjhjfh@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "2e6cbdb8-986e-4690-bdaf-3bfd3b0b8cca",
+      "expire": 1686055557084,
+      "u": "SSSSS@hotmail.com",
+      "p": "aaaa"
+    },
+    {
+      "_id": "dfb1bf3c-8722-4f57-9108-0d743c568e72",
+      "expire": 1686056760454,
+      "u": "fdsfds@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "81623fd7-a835-4236-bcbd-2542d4998979",
+      "expire": 1686057312410,
+      "u": "bvxvcvc@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "f648bbd0-1127-49c5-8142-97671edf1ca5",
+      "expire": 1686057492456,
+      "u": "kkkkkkkkkkkkk@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "9795cfd6-0d89-4a96-8817-b329fdf531cd",
+      "expire": 1686057535718,
+      "u": "kkkkkkkkkkkkk@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "1878ba8f-d2d0-41fa-be39-b1ec36a1a912",
+      "expire": 1686057560428,
+      "u": "kkkkkkkkkkkkk@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "1fdaa9a6-1fb1-4601-8685-5eaacc62ff0c",
+      "expire": 1689329229053,
+      "u": "bvxvcvc@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "f4a9aa4c-3511-4429-85e9-dafee8fd3de4",
+      "expire": 1689329233296,
+      "u": "bvxvcvc@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "bd604e88-c37e-4d5c-ba5c-27597439f3a7",
+      "expire": 1689329233872,
+      "u": "bvxvcvc@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "77292130-a357-4037-9044-37569254b357",
+      "expire": 1689329234046,
+      "u": "bvxvcvc@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "778bcd1d-ca4e-4425-9df0-34ee562e9099",
+      "expire": 1689329234209,
+      "u": "bvxvcvc@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "e95f60c4-f035-4ae8-a9ef-a406b1fd93d6",
+      "expire": 1689329234403,
+      "u": "bvxvcvc@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "5ba15b7f-6e8c-4fd9-843d-3210c2240954",
+      "expire": 1689329234588,
+      "u": "bvxvcvc@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "19a2fb26-8448-41b4-9f2e-e617656bf462",
+      "expire": 1689329235710,
+      "u": "bvxvcvc@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "29cb362a-f8bd-47c1-9450-f16a00c27616",
+      "expire": 1689329237357,
+      "u": "bvxvcvc@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "43c98906-a3b8-40f8-9d4f-d1866f050da2",
+      "expire": 1689329237613,
+      "u": "bvxvcvc@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "e63153a2-fabb-4a84-8508-82fc05dc10b7",
+      "expire": 1689329237788,
+      "u": "bvxvcvc@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "45750753-5873-4222-b913-e95688855794",
+      "expire": 1689329237939,
+      "u": "bvxvcvc@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "d61a487f-49f8-49d8-9e80-046a01c9586f",
+      "expire": 1689329238095,
+      "u": "bvxvcvc@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "8d84ea21-d622-429c-ab68-13c3cb4a1256",
+      "expire": 1689329762671,
+      "u": "IiIIIIvcsss@hotmail.com",
+      "p": "1111"
+    },
+    {
+      "_id": "2127f75d-2340-427a-9925-739b16026101",
+      "expire": 1689329798966,
+      "u": "IiIIIIvcsss@hotmail.com",
+      "p": "1111"
+    }
+  ],
+  "users": [
+    {
+      "_id": 1,
+      "name": "bruno",
+      "email": "bruno@email.com",
+      "password": "bruno"
+    },
+    {
+      "_id": 2,
+      "name": "nilson",
+      "email": "nilson@email.com",
+      "password": "nilson"
+    },
+    {
+      "email": "rrrrrr@hotmail.com",
+      "password": "$2a$10$mYCNzoAKFe34jiPT1QRIk.WBWyVLQEnXHGwyupZI6ZFCzFK9dSMYu",
+      "_id": 3
+    },
+    {
+      "email": "max@hotmail.com",
+      "password": "$2a$10$6saKesohnWoZs3ObGoR8GuXl6SgmddkLKP83yt1I2vSrvT/spW/Ny",
+      "_id": 4
+    },
+    {
+      "email": "robert@hotmail.com",
+      "password": "$2a$10$RaChF5a/gODGal0heLfHb.KGiIG/XUVdcfQelKY7ZZpD7uv2BWPP6",
+      "_id": 5
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$V8fPK2RBm3sp6K3fFBAi1.nGO3vbaIPS4igIJ.P6kBkaEYMFbmXc6",
+      "_id": 6
+    },
+    {
+      "email": "test2@gmail.com",
+      "password": "$2a$10$X9S8mJe7ryK/5VTFuZhn5evA/e3E7pYZFuT9xPMReSD8iAaC1giAy",
+      "_id": 7
+    },
+    {
+      "email": "test3@gmail.com",
+      "password": "$2a$10$5nXX35PR5g1mlNuNrzmOPeNJCy.g4MpgmnG6YUTTH6v1FdFJczv2C",
+      "_id": 8
+    },
+    {
+      "email": "ddd@gmail.com",
+      "password": "$2a$10$sDDQZ/BxBD7r.lNUgFsZ2eyZC7EeJSl7cXg1G0D7U9aJzxPYuDSXm",
+      "_id": 9
+    },
+    {
+      "email": "toto@hotmail.com",
+      "password": "$2a$10$.z5k60nu9XY4uvpRp6gvy.ktPazHXDo9ySgUMQBxW/J0SWO3HkCEO",
+      "_id": 10
+    },
+    {
+      "email": "fsfds@gmail.com",
+      "password": "$2a$10$7PCPDQuMmI0zPSDDZD7Jbu67.1SJLXply9Us6nEmhufT3QHmmnlnO",
+      "_id": 11
+    },
+    {
+      "email": "fdsfds@gmail.com",
+      "password": "$2a$10$vl/f0rggHC565zGwcUBY..sUi3PIbJ9kd7GDn0ybPIZ6X0PNpHxcq",
+      "_id": 12
+    },
+    {
+      "email": "maxime@gmail.com",
+      "password": "$2a$10$fIbr1v.Uzp4uWKU/EXp0a.S7bD1oOmodW5nY9gwuj/D/4Z/QQ.Ika",
+      "nom": "pellion",
+      "prenom": "maxime",
+      "_id": 13
+    },
+    {
+      "email": "lirrretez@hotmail.com",
+      "password": "$2a$10$Zq6ip9Clp.DK4ODUmufJ8eN6BBt0KQOcc1JteVun1t3Xev31f0c9u",
+      "_id": "dqfjhdqkjhd7878",
+      "nom": "fdfd",
+      "prenom": "dhjjjkl"
+    },
+    {
+      "email": "jjjhh@gmail.com",
+      "password": "$2a$10$JlINT6kjmevYrQxXGfUSsuMRmKmJyR3g3JCNBDAEDFA0Srp5vp6r.",
+      "_id": "f2546f8a-a419-4985-a118-ef4ca9ef328b",
+      "nom": "hfghh",
+      "prenom": "gfhfg"
+    },
+    {
+      "email": "hgfhgfooo@gmail.fr",
+      "password": "$2a$10$Yb05C8fE883J1evlhHG2neNF3zhLCNo.uLISPBJT3c1rWbBL9d53q",
+      "_id": "cbaa2923-6a1a-4d15-a660-5ed878e0d60f",
+      "nom": "gjjj",
+      "prenom": "jjhg"
+    },
+    {
+      "email": "ffdqf@gmail.fr",
+      "password": "$2a$10$ea2h4lgOuQYL7IpoYnKGFuITz8OSRSLQwpw1HdVAqqHo9Js/SgfvO",
+      "_id": "5a111565-a057-4e16-bf9c-6cb12b970f2c",
+      "nom": "fsfsd",
+      "prenom": "fsdhhh"
+    },
+    {
+      "email": "lllll@hotmail.fr",
+      "password": "$2a$10$Lamh2jQB9SPX/yCRlF6jbuH.Iq8Cgqkg3qLXbhmLOcHD2zqALk7X2",
+      "_id": "421cdbc0-21c6-4407-9231-4b48ba0bf0c5",
+      "nom": "dqjjj",
+      "prenom": "gffgffg"
+    },
+    {
+      "email": "llll@hotmail.fr",
+      "password": "$2a$10$QRoloNyL/VVp2vEqY2YP9ORD/QSefj96EzrFyDHvqFToAaZunm.DS",
+      "_id": "6e09d6eb-c79f-4647-8797-cedc3d39ff76",
+      "nom": "max",
+      "prenom": "maaax"
+    },
+    {
+      "email": "gfgf@hotmail.com",
+      "password": "$2a$10$mKSnNYUc0I6K420GeSWX/.HhHRPRmImMvy9cnDT1xRB5SMhcGSQX2",
+      "_id": "4255cb52-5427-49cd-9cdb-5987c642f510",
+      "nom": "ffff",
+      "prenom": "ffff"
+    },
+    {
+      "email": "lirrretez@hotmail.com",
+      "password": "$2a$10$kScoSuL32CKOFPvHHca2huG0fraPVHqf9bAW2LfMjY3vja9lxI/vy",
+      "_id": "34396ff6-3a5c-4208-8b4d-c745e1d929f4",
+      "nom": "fdfdff",
+      "prenom": "dhjjjkl"
+    },
+    {
+      "email": "fdsfaaaaa@gmail.com",
+      "password": "$2a$10$E8ixWisE.vOpk/JnnRVYoe1rIYcU.Jvw1cEbrh9K4Dc4EeVlR/hxi",
+      "_id": "5b7eb124-e046-4cc2-8e37-4464233658b7",
+      "nom": "sddsf",
+      "prenom": "fd"
+    },
+    {
+      "email": "testBasket@gmail.com",
+      "password": "$2a$10$kJD7f7hcnIfrbW6P9c4WX.4Rug8pNpNv0U9L1g.StOKbrUP0axVe.",
+      "_id": "6cdf5359-2964-4fb9-8ad5-72c1b0156bf6",
+      "nom": "testBasket",
+      "prenom": "testBasket22"
+    },
+    {
+      "email": "testBasket@hotmail.com",
+      "password": "$2a$10$VXGuI0aQ2nMwlpDmH.STrerP4HgB/xZdyW9Vd0IYrZRtmNRN44Xru",
+      "_id": "47e9adb2-5cd6-4f28-a1f9-8326fca4c9de",
+      "nom": "basket",
+      "prenom": "test",
+      "adresse": "10 rue de truc"
+    },
+    {
+      "email": "jhjryr@hotmail.com",
+      "password": "$2a$10$Dn537FcH0/D8qOXbNbfOVO6TKv.04SHQ.VsxmQGttPliOnr5pjErO",
+      "_id": "60b5d747-b4bc-40d7-b1cf-49326b70b8e6",
+      "nom": "kiuyyyyyy",
+      "prenom": "yyyjjhjh"
+    },
+    {
+      "email": "jhfjhjfh@hotmail.com",
+      "password": "$2a$10$cT97zrjh20fR1Jap63/x2uoWt4QEdI4ysnLCLoppyAGFo6ESNY3dy",
+      "_id": "0435bf0e-55cb-4c1b-8f64-3a51e1adfee9",
+      "nom": "ffjjjjj",
+      "prenom": "jjjjj"
+    },
+    {
+      "email": "SSSSS@hotmail.com",
+      "password": "$2a$10$zb8f0S9FuDz38TJrCkN0we2OteHkPVp6wVDrh0AUFdt0WUVTL9hnO",
+      "_id": "596410b8-003a-48ce-8312-3dd31b107e9e",
+      "nom": "SSSSSSSS",
+      "prenom": "SSSSSSS"
+    },
+    {
+      "email": "fdsfds@hotmail.com",
+      "password": "$2a$10$2/mbum0Mz2W3fbVDfiAIduuErJN3F99cRRpB68Oz4bJ3zL/MQfPiy",
+      "_id": "b6f5d02b-2925-42fe-baee-8381fc33c551",
+      "nom": "fdq",
+      "prenom": "fdsf"
+    },
+    {
+      "email": "bvxvcvcsss@hotmail.com",
+      "password": "$2a$10$oWVRpSgfKUjmAyGpl4bdr.NhlYIbOwpj2gR0OYjuhEJDwcD./jhe6",
+      "_id": "b38123ff-5cde-4499-8299-7ee979b89358",
+      "nom": "cdwcsq",
+      "prenom": "cwcxwb"
+    },
+    {
+      "email": "kkkkkkkkkkkkk@hotmail.com",
+      "password": "$2a$10$Elo87bkc1cEj8FSc.zLwWOyaUBTlDuwc5/nv3nftkssNa0gQjDM9m",
+      "_id": "2cfcb335-ebce-47bd-a8bd-fa3101d60f63",
+      "nom": "fsdfd",
+      "prenom": "sfdsf"
+    },
+    {
+      "email": "IiIIIIvcsss@hotmail.com",
+      "password": "$2a$10$mu20lgKr7QF8SMlxpRGtHOGyR5PzoPgU7SKp/gKHF03WUSu3GMtW2",
+      "_id": "7e0548d0-2723-4fbf-b1d2-8655c9cfc64d",
+      "nom": "dsqd",
+      "prenom": "ddds"
+    }
+  ],
+  "articles": [
+    {
+      "_id": 1,
+      "name": "Chaussures de course Nike Air Zoom Pegasus 138",
+      "brand": "Nike",
+      "category": "Chaussures de course",
+      "price": 129.99,
+      "description": "Les chaussures de course Nike Air Zoom Pegasus 38 offrent une excellente réactivité et un maintien optimal pour les coureurs de tous niveaux. Dotées d'une mousse Nike React et d'un amorti Air Zoom, ces chaussures offrent un confort exceptionnel tout au long de votre course.",
+      "image": "nike-pegasus-38.jpg",
+      "sizes": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "colors": [
+        "Bleu",
+        "Noir",
+        "Blanc"
+      ],
+      "gender": "femme"
+    },
+    {
+      "_id": 2,
+      "name": "Ballon de basketball Spalding NBA",
+      "brand": "Spalding",
+      "category": "Ballons de basketball",
+      "price": 24.99,
+      "description": "Le ballon de basketball Spalding NBA est un choix populaire pour les joueurs de basketball de tous niveaux. Ce ballon est construit avec un revêtement en caoutchouc durable pour une utilisation en intérieur et en extérieur.",
+      "image": "spalding-nba-ball.jpg",
+      "sizes": [
+        "38",
+        "39",
+        "40"
+      ],
+      "colors": [
+        "Bleu",
+        "Noir",
+        "Blanc"
+      ],
+      "gender": "unisex"
+    },
+    {
+      "_id": 3,
+      "name": "3-short de bain",
+      "brand": "Spalding",
+      "category": "piscine",
+      "price": 21.99,
+      "description": "short de bain",
+      "image": "spalding-nba-ball.jpg",
+      "sizes": [
+        "38",
+        "39"
+      ],
+      "colors": [
+        "Bleu",
+        "Noir",
+        "Blanc"
+      ],
+      "gender": "homme"
+    },
+    {
+      "_id": 4,
+      "name": "4-short de bain",
+      "brand": "Spalding",
+      "category": "piscine",
+      "price": 21.99,
+      "description": "short de bain",
+      "image": "spalding-nba-ball.jpg",
+      "sizes": [
+        "38",
+        "39"
+      ],
+      "colors": [
+        "Bleu",
+        "Noir",
+        "Blanc"
+      ],
+      "gender": "homme"
+    },
+    {
+      "_id": 5,
+      "name": "5-short de bain",
+      "brand": "Spalding",
+      "category": "piscine",
+      "price": 25.99,
+      "description": "short de bain",
+      "image": "spalding-nba-ball.jpg",
+      "sizes": [
+        "38",
+        "39"
+      ],
+      "colors": [
+        "Bleu",
+        "Noir",
+        "Blanc"
+      ],
+      "gender": "homme"
+    },
+    {
+      "_id": 6,
+      "name": "6-short de bain",
+      "brand": "Spalding",
+      "category": "piscine",
+      "price": 21.99,
+      "description": "short de bain",
+      "image": "spalding-nba-ball.jpg",
+      "sizes": [
+        "38",
+        "39"
+      ],
+      "colors": [
+        "Bleu",
+        "Noir",
+        "Blanc"
+      ],
+      "gender": "homme"
+    },
+    {
+      "_id": 7,
+      "name": "7-short de bain",
+      "brand": "Spalding",
+      "category": "piscine",
+      "price": 21.99,
+      "description": "short de bain",
+      "image": "spalding-nba-ball.jpg",
+      "sizes": [
+        "38",
+        "39"
+      ],
+      "colors": [
+        "Bleu",
+        "Noir",
+        "Blanc"
+      ],
+      "gender": "homme"
+    },
+    {
+      "_id": 8,
+      "name": "8-short de bain",
+      "brand": "Spalding",
+      "category": "piscine",
+      "price": 21.99,
+      "description": "short de bain",
+      "image": "spalding-nba-ball.jpg",
+      "sizes": [
+        "38",
+        "39"
+      ],
+      "colors": [
+        "Bleu",
+        "Noir",
+        "Blanc"
+      ],
+      "gender": "homme"
+    },
+    {
+      "_id": 9,
+      "name": "9-short de bain",
+      "brand": "Spalding",
+      "category": "piscine",
+      "price": 21.99,
+      "description": "short de bain",
+      "image": "spalding-nba-ball.jpg",
+      "sizes": [
+        "38",
+        "39"
+      ],
+      "colors": [
+        "Bleu",
+        "Noir",
+        "Blanc"
+      ],
+      "gender": "homme"
+    },
+    {
+      "_id": 10,
+      "name": "10-short de bain",
+      "brand": "Spalding",
+      "category": "piscine",
+      "price": 21.99,
+      "description": "short de bain",
+      "image": "spalding-nba-ball.jpg",
+      "sizes": [
+        "38",
+        "39"
+      ],
+      "colors": [
+        "Bleu",
+        "Noir",
+        "Blanc"
+      ],
+      "gender": "homme"
+    },
+    {
+      "_id": 11,
+      "name": "11-short de bain",
+      "brand": "Spalding",
+      "category": "piscine",
+      "price": 21.99,
+      "description": "short de bain",
+      "image": "spalding-nba-ball.jpg",
+      "sizes": [
+        "38",
+        "39"
+      ],
+      "colors": [
+        "Bleu",
+        "Noir",
+        "Blanc"
+      ],
+      "gender": "homme"
+    },
+    {
+      "_id": 12,
+      "name": "12-short de bain",
+      "brand": "Spalding",
+      "category": "piscine",
+      "price": 21.99,
+      "description": "short de bain",
+      "image": "spalding-nba-ball.jpg",
+      "sizes": [
+        "38",
+        "39"
+      ],
+      "colors": [
+        "Bleu",
+        "Noir",
+        "Blanc"
+      ],
+      "gender": "homme"
+    }
+  ],
+  "reviews": [
+    {
+      "_id": 1,
+      "article": 1,
+      "author": "John Doe",
+      "rating": 4,
+      "comment": "Très bonnes chaussures pour la course, mais un peu chères.",
+      "date": "2022-02-01"
+    },
+    {
+      "_id": 2,
+      "article": 1,
+      "author": "Jane Doe",
+      "rating": 5,
+      "comment": "J'adore ces chaussures, elles sont très confortables et légères.",
+      "date": "2022-03-10"
+    },
+    {
+      "_id": 3,
+      "article": 2,
+      "author": "Bob Smith",
+      "rating": 5,
+      "comment": "Excellent ballon de basketball, très résistant et facile à manier.",
+      "date": "2022-01-15"
+    },
+    {
+      "id": 4,
+      "article": 2,
+      "author": "Sarah Johnson",
+      "rating": 3,
+      "comment": "Le ballon est de bonne qualité, mais je le trouve un peu trop lourd.",
+      "date": "2022-02-20"
+    },
+    {
+      "user": 1,
+      "comment": "success",
+      "id": 5
+    },
+    {
+      "user": 1,
+      "comment": "success",
+      "id": 6
+    }
+  ],
+  "orders": [
+    {
+      "userId": "47e9adb2-5cd6-4f28-a1f9-8326fca4c9de",
+      "articleId": 1,
+      "price": 129.99,
+      "name": "Chaussures de course Nike Air Zoom Pegasus 138",
+      "quantity": 1,
+      "_id": 1
+    },
+    {
+      "userId": "47e9adb2-5cd6-4f28-a1f9-8326fca4c9de",
+      "articleId": 2,
+      "price": 24.99,
+      "name": "Ballon de basketball Spalding NBA",
+      "quantity": 1,
+      "_id": 2
+    },
+    {
+      "userId": "47e9adb2-5cd6-4f28-a1f9-8326fca4c9de",
+      "articleId": 3,
+      "price": 21.99,
+      "name": "3-short de bain",
+      "quantity": 1,
+      "_id": 3
+    },
+    {
+      "userId": "47e9adb2-5cd6-4f28-a1f9-8326fca4c9de",
+      "articleId": 1,
+      "price": 129.99,
+      "name": "Chaussures de course Nike Air Zoom Pegasus 138",
+      "quantity": 1,
+      "_id": 4
+    },
+    {
+      "userId": "47e9adb2-5cd6-4f28-a1f9-8326fca4c9de",
+      "articleId": 1,
+      "price": 129.99,
+      "name": "Chaussures de course Nike Air Zoom Pegasus 138",
+      "quantity": 1,
+      "_id": 5
+    },
+    {
+      "userId": "47e9adb2-5cd6-4f28-a1f9-8326fca4c9de",
+      "articleId": 1,
+      "price": 129.99,
+      "name": "Chaussures de course Nike Air Zoom Pegasus 138",
+      "quantity": 1,
+      "_id": 6
+    },
+    {
+      "userId": "47e9adb2-5cd6-4f28-a1f9-8326fca4c9de",
+      "articleId": 3,
+      "price": 21.99,
+      "name": "3-short de bain",
+      "quantity": 1,
+      "_id": 7
+    },
+    {
+      "userId": "47e9adb2-5cd6-4f28-a1f9-8326fca4c9de",
+      "articleId": 1,
+      "price": 129.99,
+      "name": "Chaussures de course Nike Air Zoom Pegasus 138",
+      "quantity": 1,
+      "_id": 8
+    },
+    {
+      "userId": "47e9adb2-5cd6-4f28-a1f9-8326fca4c9de",
+      "articleId": 1,
+      "price": 129.99,
+      "name": "Chaussures de course Nike Air Zoom Pegasus 138",
+      "quantity": 1,
+      "_id": 9
+    },
+    {
+      "userId": "47e9adb2-5cd6-4f28-a1f9-8326fca4c9de",
+      "articleId": 1,
+      "price": 129.99,
+      "name": "Chaussures de course Nike Air Zoom Pegasus 138",
+      "quantity": 1,
+      "_id": 10
+    },
+    {
+      "userId": "",
+      "articleId": 1,
+      "price": 129.99,
+      "name": "Chaussures de course Nike Air Zoom Pegasus 138",
+      "quantity": 1,
+      "_id": 11
+    },
+    {
+      "userId": "",
+      "articleId": 1,
+      "price": 129.99,
+      "name": "Chaussures de course Nike Air Zoom Pegasus 138",
+      "quantity": 1,
+      "_id": 12
+    },
+    {
+      "userId": "",
+      "articleId": 2,
+      "price": 24.99,
+      "name": "Ballon de basketball Spalding NBA",
+      "quantity": 1,
+      "_id": 13
+    },
+    {
+      "userId": "",
+      "articleId": 3,
+      "price": 21.99,
+      "name": "3-short de bain",
+      "quantity": 1,
+      "_id": 14
+    },
+    {
+      "userId": "",
+      "articleId": 1,
+      "price": 129.99,
+      "name": "Chaussures de course Nike Air Zoom Pegasus 138",
+      "quantity": 1,
+      "_id": 15
+    }
+  ],
+  "clients": [
+    {
+      "email": "testBasket@hotmail.com",
+      "password": "$2a$10$VXGuI0aQ2nMwlpDmH.STrerP4HgB/xZdyW9Vd0IYrZRtmNRN44Xru",
+      "_id": "47e9adb2-5cd6-4f28-a1f9-8326fca4c9de",
+      "nom": "basket",
+      "prenom": "test",
+      "adresse": "10 rue de truc"
+    },
+    {
+      "nom": "John",
+      "prenom": "Doe",
+      "adresse": "truc à gauche",
+      "_id": "wGgDkiN"
+    },
+    {
+      "nom": "John",
+      "prenom": "Doe",
+      "adresse": "truc à gauche",
+      "_id": "0L-Qaov"
+    },
+    {
+      "nom": "John",
+      "prenom": "Doe",
+      "adresse": "truc à gauche",
+      "_id": "r58pXWB"
+    },
+    {
+      "nom": "John",
+      "prenom": "Doe",
+      "adresse": "truc à gauche",
+      "_id": "aokSzrH"
+    },
+    {
+      "email": "",
+      "nom": "John",
+      "prenom": "Doe",
+      "adresse": "truc à gauche",
+      "_id": "nCA8yeI"
+    },
+    {
+      "email": "",
+      "nom": "John",
+      "prenom": "Doe",
+      "adresse": "truc à gauche",
+      "_id": "y89N4Td"
+    },
+    {
+      "email": "",
+      "nom": "ftt",
+      "prenom": "Doe",
+      "adresse": "truc à gauche",
+      "_id": "stgUJL1"
+    },
+    {
+      "userId": "256d84ff-84fd-4c48-b639-746db0b97456",
+      "email": "hhghgf",
+      "nom": "dsdqg",
+      "prenom": "gggtttt",
+      "adresse": "hghgf",
+      "_id": "e66FFmw"
+    },
+    {
+      "userId": "fa6cbc54-ab9d-4dc4-b03c-c89a6af7023f",
+      "email": "cardNumber22",
+      "nom": "cardNumber22",
+      "prenom": "cardNumber22",
+      "adresse": "cardNumber22",
+      "_id": "H5W72HP",
+      "cards": [
+        {
+          "cardNumber": "Pas de value",
+          "cardHolderName": "cardNumber22",
+          "expirationDate": "20/06/2042",
+          "cvv": "321"
+        }
+      ]
+    },
+    {
+      "userId": "fcdfbf04-c70f-41a9-ac67-383dde8e513b",
+      "email": "",
+      "nom": "John",
+      "prenom": "Doe",
+      "adresse": "truc à gauche",
+      "cards": [
+        {
+          "cardNumber": "5105105105105100",
+          "cardHolderName": "",
+          "expirationDate": "20/06/2042",
+          "cvv": "321"
+        }
+      ],
+      "_id": "Qz7Gd-l"
+    },
+    {
+      "userId": "91c27121-0865-4d42-aca7-b23de4d6154a",
+      "email": "",
+      "nom": "John",
+      "prenom": "Doe",
+      "adresse": "truc à gauche",
+      "cards": [
+        {
+          "cardNumber": "5105105105105100",
+          "cardHolderName": "",
+          "expirationDate": "20/06/2042",
+          "cvv": "321"
+        }
+      ],
+      "_id": "ak4PWeR"
+    },
+    {
+      "userId": "c01ef015-8e42-4d64-8067-0861534be22b",
+      "email": "d",
+      "nom": "d",
+      "prenom": "d",
+      "adresse": "d",
+      "cards": [
+        {
+          "cardNumber": "5135 1800 0000 001",
+          "cardHolderName": "this.formGroup.controlvalue",
+          "expirationDate": "20/06/2042",
+          "cvv": "321"
+        }
+      ],
+      "_id": "qHWoojT"
+    }
+  ]
+}

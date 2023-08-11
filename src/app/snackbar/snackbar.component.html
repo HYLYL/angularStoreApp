@@ -1,0 +1,10 @@
+<ng-container *ngIf="( error$ | async ) as error">
+
+  <span [ngClass]="{ 'error': error.type == 'ERROR', 
+                     'warning': error.type == 'WARNING',
+                     'info': error.type == 'INFO' }" 
+                    matSnackBarLabel>
+    {{ error.msg }}
+  </span>
+
+</ng-container>

@@ -1,0 +1,64 @@
+{
+  "users": [
+    { "id": 1, "login": "rer", "pswd": "1234", "name": "Robert Ernens", "token": "1234567890"},
+    { "id": 2, "login": "max", "pswd": "1234", "name": "Maxime Peillon", "token": "0123456789" }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "name": "Chaussures de course Nike Air Zoom Pegasus 38",
+      "brand": "Nike",
+      "category": "Chaussures de course",
+      "price": 129.99,
+      "description": "Les chaussures de course Nike Air Zoom Pegasus 38 offrent une excellente réactivité et un maintien optimal pour les coureurs de tous niveaux. Dotées d'une mousse Nike React et d'un amorti Air Zoom, ces chaussures offrent un confort exceptionnel tout au long de votre course.",
+      "image": "nike-pegasus-38.jpg",
+      "sizes": ["38", "39", "40", "41", "42", "43", "44", "45"],
+      "colors": ["Bleu", "Noir", "Blanc"]
+    },
+    {
+      "id": 2,
+      "name": "Ballon de basketball Spalding NBA",
+      "brand": "Spalding",
+      "category": "Ballons de basketball",
+      "price": 24.99,
+      "description": "Le ballon de basketball Spalding NBA est un choix populaire pour les joueurs de basketball de tous niveaux. Ce ballon est construit avec un revêtement en caoutchouc durable pour une utilisation en intérieur et en extérieur.",
+      "image": "spalding-nba-ball.jpg",
+      "size": "Taille 7"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "article": 1,
+      "author": "John Doe",
+      "rating": 4,
+      "comment": "Très bonnes chaussures pour la course, mais un peu chères.",
+      "date": "2022-02-01"
+    },
+    {
+      "id": 2,
+      "article": 1,
+      "author": "Jane Doe",
+      "rating": 5,
+      "comment": "J'adore ces chaussures, elles sont très confortables et légères.",
+      "date": "2022-03-10"
+    },
+    {
+      "id": 3,
+      "article": 2,
+      "author": "Bob Smith",
+      "rating": 5,
+      "comment": "Excellent ballon de basketball, très résistant et facile à manier.",
+      "date": "2022-01-15"
+    },
+    {
+      "id": 4,
+      "article": 2,
+      "author": "Sarah Johnson",
+      "rating": 3,
+      "comment": "Le ballon est de bonne qualité, mais je le trouve un peu trop lourd.",
+      "date": "2022-02-20"
+    }
+  ],
+  "orders": []
+}

@@ -1,0 +1,211 @@
+<mat-card>
+  <mat-card-header>
+    <h1 class="mat-card-title">Créez un compte</h1>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-stepper [orientation]="orientation" [ngClass]="{'hide-header': isFirstStepActive || isWindowTooSmall}" headerPosition='bottom'
+      labelPosition='end' [linear]="isLinear" #stepper class="stepper-main">
+      <mat-step [stepControl]="step.formGroup" label="step {{i+1}}" *ngFor="let step of steppers; index as i">
+        <div class="forms" style="min-height: 100px;">
+          <form [formGroup]="step.formGroup" novalidate>
+            <p *ngIf="i == 3" (scrolled)="onScrolled($event)" scrollable class="textarea-scrollable">
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+              Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+              Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
+              Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+              undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+              (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+              ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+              amet..", comes from a line in section 1.10.32.
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+              Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+              Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
+              Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+              undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+              (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+              ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+              amet..", comes from a line in section 1.10.32.
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+              Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+              Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
+              Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+              undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+              (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+              ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+              amet..", comes from a line in section 1.10.32.
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+              Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+              Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
+              Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+              undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+              (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+              ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+              amet..", comes from a line in section 1.10.32.
+              The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
+              1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
+              original form, accompanied by English versions from the 1914 translation by H. Rackham.
+              The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
+              1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
+              original form, accompanied by English versions from the 1914 translation by H. Rackham.
+              The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
+              1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
+              original form, accompanied by English versions from the 1914 translation by H. Rackham.
+              The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
+              1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
+              original form, accompanied by English versions from the 1914 translation by H. Rackham.
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+              Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+              Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
+              Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+              undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+              (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+              ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+              amet..", comes from a line in section 1.10.32.
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+              Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+              Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
+              Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+              undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+              (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+              ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+              amet..", comes from a line in section 1.10.32.
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+              Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+              Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
+              Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+              undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+              (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+              ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+              amet..", comes from a line in section 1.10.32.
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+              Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+              Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
+              Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+              undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+              (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+              ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+              amet..", comes from a line in section 1.10.32.
+              The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
+              1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
+              original form, accompanied by English versions from the 1914 translation by H. Rackham.
+              The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
+              1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
+              original form, accompanied by English versions from the 1914 translation by H. Rackham.
+              The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
+              1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
+              original form, accompanied by English versions from the 1914 translation by H. Rackham.
+              The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
+              1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
+              original form, accompanied by English versions from the 1914 translation by H. Rackham.
+            </p>
+            <dynamic-material-form class="row" [group]="step.formGroup" [layout]="step.formLayout"
+              [model]="step.formModel" (change)="onChange($event)">
+              
+              <ng-template modelId="pswd" align="END"> 
+                
+                <mat-icon style="position: absolute; right: 45px; top: 420px;" mat-icon-button (click)='onClick()'>{{isVisible ? 'visibility_off' : 'visibility'}}</mat-icon>
+
+                  <!-- <meter min="0" max="4" low="2" high="3" suboptimum="2.1" optimum="4" value="{{passwordEvaluationResult}}"></meter> -->
+                  
+              </ng-template>
+
+            </dynamic-material-form>
+          </form>
+<br>
+            <div *ngIf="i == 0" class="password-strength-meter">
+              <div class="password-bar">
+                <div class="password-bar-part">
+                  <div class="part-red" *ngIf="passwordEvaluationResult >= 1">Weak</div>
+                </div>
+                <div class="password-bar-part">
+                  <div class="part-orange" *ngIf="passwordEvaluationResult >= 2">Low</div>
+                </div>
+                <div class="password-bar-part">
+                  <div class="part-yellow" *ngIf="passwordEvaluationResult >= 3">Medium</div>
+                </div>
+                <div class="password-bar-part">
+                  <div class="part-green" *ngIf="passwordEvaluationResult >= 4">High</div>
+                </div>
+              </div>
+            </div>
+            <br>
+          <!-- avec inner html -->
+          <!-- <div *ngIf="i == 0" [innerHTML]="safeDynamicHtmlContent"></div>
+<br> -->
+          <!-- sans inner html -->
+          <!-- <mat-progress-bar style="height: 10px;" *ngIf="i == 0" [color]="color" value="{{passwordEvaluationResult}}"></mat-progress-bar> -->
+
+          <div *ngIf="i == 0">
+            <p>Le mot de passe doit respecter les critères suivants : </p>
+            <ul style="text-align: left;">
+              <li>
+                <span [ngClass]="{ 'valid': hasSpecialChar }">
+                  <mat-icon [ngClass]="{ 'valid-icon': hasSpecialChar, 'invalid-icon': !hasSpecialChar }">
+                    {{ hasSpecialChar ? 'check' : 'close' }}
+                  </mat-icon>
+                  Au moins 1 caractère spécial
+                </span>
+              </li>
+              <li>
+                <span [ngClass]="{ 'valid': hasDigit }">
+                  <mat-icon [ngClass]="{ 'valid-icon': hasDigit, 'invalid-icon': !hasDigit }">
+                    {{ hasDigit ? 'check' : 'close' }}
+                  </mat-icon>
+                  Au moins 1 chiffre
+                </span>
+              </li>
+              <li>
+                <span [ngClass]="{ 'valid': hasUppercase }">
+                  <mat-icon [ngClass]="{ 'valid-icon': hasUppercase, 'invalid-icon': !hasUppercase }">
+                    {{ hasUppercase ? 'check' : 'close' }}
+                  </mat-icon>
+                  Au moins 1 lettre majuscule
+                </span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        <mat-card-footer>
+          <button mat-raised-button color="warn" style="margin-right: 20px;" *ngIf="i !== 0" matStepperPrevious>Previous</button>
+          <button mat-raised-button color="primary" *ngIf="i == 0" matStepperNext [disabled]="!step.formGroup.valid" (click)="onNextClicked()">Next</button>
+          <button mat-raised-button color="primary" *ngIf="i == 1" (click)="emailConfirm()" matStepperNext [disabled]="!step.formGroup.valid">Next</button>
+          <button mat-raised-button color="primary" *ngIf="i == 2" matStepperNext [disabled]="!step.formGroup.valid">Next</button>
+          <button mat-raised-button color="primary" *ngIf="i == 3" matStepperNext [disabled]="!step.formGroup.valid">Next</button>
+          <button mat-raised-button color="primary" *ngIf="i == 4" matStepperNext [disabled]="!step.formGroup.valid" (click)="setClient()" (click)="getCardType()">Next</button>
+        </mat-card-footer>
+      </mat-step>
+
+      <!-- <mat-step label="Step 5">
+  <ng-template matStepLabel >Terminé</ng-template>
+  <mat-card>
+  <mat-card-content style="text-align: center;">
+  <div *ngIf="client"> 
+  <h1>Achat confirmée</h1>
+  <img mat-card-image style="height: 100px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs8zJvQJnJ8wHfsOC5b_SVk1JSk7PJy8Y7Qg&usqp=CAU">
+  <h2>Merci !</h2>
+  <p>Votre paiement a été accepté.</p>
+  <div style="text-align: left;">
+  <p>userId: {{client.userId}}</p>
+  <p>nom: {{client.nom}}</p>
+  <p>prenom: {{client.prenom}}</p>
+  <p>adresse: {{client.adresse}}</p>
+  <p>email: {{client.email}}</p>
+  <p>Card Number: {{ client.cards[0].cardNumber }}</p>
+  <p>Card Holder Name: {{ client.cards[0].cardHolderName }}</p>
+  <p>Expiration Date: {{ client.cards[0].expirationDate }}</p>
+  <p>CVV: {{ client.cards[0].cvv }}</p>
+  <p>Terms: {{ termsAccepted }}</p>
+  </div>
+  </div>
+  </mat-card-content>
+  </mat-card>
+  <div>
+  <button mat-button matStepperPrevious>Retour</button>
+  <button mat-button (click)="stepper.reset()">Réinitialiser</button>
+  <button mat-button matStepperNext (click)="sendClient(); initializeStripe()">Suivant</button>
+  </div>
+  </mat-step>  -->
+    </mat-stepper>
+  </mat-card-content>
+</mat-card>

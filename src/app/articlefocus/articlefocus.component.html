@@ -1,0 +1,98 @@
+<div class="page-container">
+  <h2 class="flex-center">Fiche Article</h2>
+
+  <div class="article-details">
+    <div>
+      <div class="article-info">
+        <div>{{ selectedArticle.name }}</div>
+        <div>{{ selectedArticle.brand }} - {{ selectedArticle.gender }} - {{ selectedArticle.price }}</div>
+      </div>
+
+      <div class="article-images">
+        <div class="first-image">
+          <img class="img-modal" [src]="'https://source.unsplash.com/640x480/?clothing&id=' + selectedArticle._id" alt="Image">
+        </div>
+      </div>
+
+      <div class="article-select">
+        <ng-container *ngIf="selectedArticle.hasOwnProperty('sizes') == true">
+          <mat-label>Sizes :</mat-label>
+          <select matNativeControl (change)="onSizeSelected($event)" required>
+            <option *ngFor="let size of selectedArticle.sizes" [value]="size">{{ size }}</option>
+          </select>
+        </ng-container>
+
+        <ng-container *ngIf="selectedArticle.hasOwnProperty('colors') == true">
+          <mat-label>Colors :</mat-label>
+          <select matNativeControl (change)="onColorSelected($event)" required>
+            <option *ngFor="let color of selectedArticle.colors" [value]="color">{{ color }}</option>
+          </select>
+        </ng-container>
+
+        <div class="mat-field-q">
+          <mat-form-field appearance="outline">
+            <mat-label>Quantité</mat-label>
+            <input value="1" matInput>
+          </mat-form-field>
+        </div>
+
+        <button class="buy-button primary" [attr.id]="'buy-button-' + selectedArticle._id" (click)="basketService.update(selectedArticle)">Ajouter au panier</button>
+
+        <div class="buttons">
+          <!-- Ici les boutons additionnels (non fournis dans le code) -->
+          <div class="example-button-row">
+            <div class="example-flex-container">
+                <!-- <button mat-raised-button>Basic</button> -->
+              <button mat-icon-button aria-label="Example icon button with a vertical three dot icon">
+                <mat-icon>more_vert</mat-icon>
+              </button>
+              <button mat-icon-button color="primary" aria-label="Example icon button with a home icon">
+                <mat-icon>home</mat-icon>
+              </button>
+              <button mat-icon-button color="accent" aria-label="Example icon button with a menu icon">
+                <mat-icon>menu</mat-icon>
+              </button>
+              <button mat-icon-button color="warn" aria-label="Example icon button with a heart icon">
+                <mat-icon>favorite</mat-icon>
+              </button>
+              <button mat-icon-button disabled aria-label="Example icon button with a open in new tab icon">
+                <mat-icon>open_in_new</mat-icon>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="card-compare">
+      <div class="card-compare-body">
+        <h5 class="card-title">Price Comparison</h5>
+        <div class="right-column">
+          <div class="article-photos-previews">
+            <div class="article-photo-preview" *ngFor="let article of (articles$ | async)?.slice(0, 4)">
+              <div class="photo-info" *ngIf="selectedArticle?.price <= article.price" (click)="onClickCompare(article)">
+                <img style="width: 120px;" mat-card-image [src]="'https://source.unsplash.com/640x480/?clothing&id=' + article._id" alt="Image">             
+                <div [ngClass]="{'positive': selectedArticle?.price > article.price, 'negative': selectedArticle?.price < article.price}">
+                  {{ article.price }} $ | + {{ (article.price - selectedArticle?.price) | number:'1.0-0' }} $ | + {{ ((article.price - selectedArticle?.price) / article.price * 100) | number:'1.0-0' }} %
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </div>
+
+  <div class="commentaries">
+    <h2 class="video-title">Commentaires</h2>
+    <div class="comment">
+      <!-- Contenu des commentaires (non fourni dans le code) -->
+    </div>
+  </div>
+</div>
+<div class="commentaries">
+  <h2 class="video-title">Commentaires</h2>
+  <div class="comment">
+    <!-- Contenu des commentaires (non fourni dans le code) -->
+  </div>
+</div>

@@ -1,0 +1,166 @@
+// * {
+//   box-shadow: 0 0 0 3px red
+//   inset;
+// }
+
+.hide-header {
+  ::ng-deep .mat-horizontal-stepper-header-container {
+    display: none !important;
+  }
+}
+
+.hide-header-small {
+  ::ng-deep .mat-horizontal-stepper-header-container {
+    display: none !important;
+  }
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.stepper-main {
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.valid-icon {
+  color: green;
+}
+
+.invalid-icon {
+  color: red;
+}
+
+button {
+  width: 100px;
+}
+
+.textarea-scrollable {
+  height: 400px;
+  overflow-y: auto;
+}
+
+meter::-webkit-meter-bar {
+ 
+  background: none;
+
+  background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+meter::-webkit-meter-even-less-good-value {
+ 
+  background: none;
+
+  background-color: red;
+
+}
+
+meter::-webkit-meter-subsuboptimum-value {
+ 
+  background: none;
+
+  background-color: purple;
+
+}
+
+meter::-webkit-meter-suboptimum-value {
+ 
+  background: none;
+
+  background-color: orange;
+
+}
+
+// meter::-webkit-meter-optimum-value {
+ 
+//   background: none;
+
+//   background-color: yellow;
+
+// }
+
+meter {
+
+  /* Reset the default appearance */
+
+  // -webkit-appearance: none;
+
+  // -moz-appearance: none;
+
+  // appearance: none;
+
+  margin: 0 auto 1em;
+
+  width: 100%;
+
+  height: 20px;
+
+  /* Applicable only to Firefox */
+
+  background: none;
+
+  background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+meter.red {
+  appearance: red;
+}
+
+// test 
+
+.suffix-icon i {
+  cursor: pointer;
+}
+
+.suffix-icon i.material-icons:before {
+  content: "visibility";
+}
+
+.suffix-icon i.material-icons:active:before {
+  content: "visibility_off";
+}
+
+//PASSWORD
+
+.password-strength-meter {
+  width: 100%;
+  height: 25px;
+  border: 1px solid #dfdedea6;
+  overflow: hidden;
+}
+
+.password-bar {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.password-bar-part {
+  flex: 1;
+  height: 100%;
+  position: relative;
+  width: 25%;
+}
+
+.part-red, .part-orange, .part-yellow, .part-green {
+  /* Changer la police, la taille et l'alignement du texte */
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #130404;
+  text-align: center;
+  line-height: 25px; /* Pour aligner le texte au centre verticalement */
+  height: 100%;
+}
+
+.part-red { background-color: rgba(214, 35, 35, 0.896); }
+
+.part-orange { background-color: rgba(239, 159, 12, 0.883); }
+
+.part-yellow { background-color: rgba(227, 224, 25, 0.91); }
+
+.part-green { background-color: rgba(22, 174, 22, 0.902); }

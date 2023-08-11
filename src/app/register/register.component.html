@@ -1,0 +1,15 @@
+<div class="registerForm">
+
+    <form [formGroup]="formGroup" novalidate>
+  
+      <dynamic-material-form class="row" [group]="formGroup" [layout]="formLayout" [model]="formModel"></dynamic-material-form>
+      
+    </form>
+  
+  </div>
+  
+  <div class="col">
+  
+    <button mat-raised-button color="primary" cdkFocusInitial (click)="register()">Register</button> 
+     
+  </div>

@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "email": "robert.ernens@gmail.com",
+      "password": "$2a$10$hOWuTi6Xx4Flhxg8bOnqJ.ZXtwDCEuqJ5MMoMU5qI2QAcT6TGuzlW",
+      "id": 1
+    },
+    {
+      "email": "robert.ernens@icloud.com",
+      "password": "$2a$10$6QlKRU0cIAFMCbmuNbFfIOUYwyCjAs8Pl2bqhGraYkMkId/vUmYUi",
+      "id": "27a89f57-bb1c-43be-9ac2-a9688e4616bf"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
