@@ -126,12 +126,12 @@ export const SIGNIN_FORM_MODEL: DynamicFormModel[] = [
                         hint: 'Confirmer votre adresse e-mail valide',
                         prefix: '<i class="material-icons pr-2">alternate_email</i>',
                         validators: {
-                            required: null,
-                            isEmailMatch: null
+                            // required: null,
+                            // isEmailMatch: null
                         },
                         errorMessages: {
-                            required: 'Champ obligatoire',
-                            isEmailMatch: 'Les adresses e-mail ne correspondent pas'
+                            // required: 'Champ obligatoire',
+                            // isEmailMatch: 'Les adresses e-mail ne correspondent pas'
                         }
                         }),
                     new DynamicInputModel({
@@ -144,12 +144,12 @@ export const SIGNIN_FORM_MODEL: DynamicFormModel[] = [
                     hint: 'Saisir votre mot de passe',
                     prefix: '<i class="material-icons pr-2">vpn_key</i>',
                     validators: {
-                        required: null,
-                        isStrongPswd: null
+                        // required: null,
+                        // isStrongPswd: null
                     },
                     errorMessages: {
-                        required: 'Champ obligatoire',
-                        isStrongPswd: 'Mot de passe trop simple'
+                        // required: 'Champ obligatoire',
+                        // isStrongPswd: 'Mot de passe trop simple'
                     }
                     })
             ]
